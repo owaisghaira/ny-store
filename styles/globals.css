@@ -1,0 +1,59 @@
+@import "~antd/dist/antd.css";
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.flexBetween {
+  display: "flex";
+  justify-content: "space-around";
+  margin: "0px 15px";
+}
+.ant-card-body {
+  padding: 0px !important
+}
+.circle-image{
+  border-radius: 50px !important;
+}
+.ant-menu-horizontal{
+  border-bottom: 0px !important;
+}
+.top-link a {
+  font-size: 15px; 
+  font-weight: 500;
+  padding-top: 10px;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.bottom-link a {
+  font-size: 15px; 
+  font-weight: 500;
+  padding-top: 10px;
+  color: rgb(33, 37, 41) !important;
+  text-decoration: none !important;
+}
+.auth-link a{
+  color: #000 ; 
+  text-decoration: none;
+}
+.top-social a {
+  text-decoration: none;
+  color: #fff ;
+}
+
+.top-social a:hover {
+  text-decoration: none;
+  color: #fff ;
+}

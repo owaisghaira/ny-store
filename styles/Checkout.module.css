@@ -1,0 +1,17 @@
+.container {
+  padding: 25px 0;
+}
+
+.boxitem {
+  border: "1px solid lightGray";
+  padding: "15px";
+  border-radius: "5px";
+}
+
+.name label {
+  margin-top: 15px;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,64 @@
+.container {
+  padding: 25px 0;
+}
+.flexitem {
+  display: flex;
+  justify-content: space-between;
+}
+.iconantd > svg {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.addless {
+  display: "flex";
+  justify-content: "space-between";
+  padding: "0px 10px";
+  border: "2px solid black";
+  border-radius: "20px";
+  height: "35px";
+  width: "150px";
+}
+.btn_add_tocart {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  align-items: center;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+}
+.scroll {
+  overflow-y: scroll;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 8px;
+  overflow-y: hidden;
+}
+.horizontal_slider {
+  display: block;
+  width: 100%;
+  overflow-x: scroll;
+  box-sizing: border-box;
+}
+.horizontal_slider::-webkit-scrollbar {
+  display: none;
+}
+.horizontal_slider {
+  -ms-overflow-style: none;
+}
+
+.slider_container {
+  display: block;
+  white-space: nowrap;
+}
+.item {
+  display: inline-block;
+  margin-right: 25px;
+}
+.percentofflabel {
+  color: black;
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 13px;
+}

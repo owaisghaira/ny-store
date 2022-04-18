@@ -1,0 +1,66 @@
+.drawer {
+  transform: translateX(100%);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  /* visibility: visible; */
+  opacity: 1;
+  background-color: #fff;
+  width: 70%;
+  max-width: 400px;
+  position: fixed;
+  right: 100%;
+  top: 0;
+  overflow-y: auto;
+  overscroll-behavior-block: contain;
+  transition: 0.3s 0.1s;
+  z-index: 1000050;
+  /* height: inherit; */
+}
+
+.cartdrawer {
+  /* transform: translateX(100%);
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  height: 100%;
+
+  opacity: 1;
+  background-color: #fff;
+   width: 50%;
+
+  position: fixed;
+  right:  80%;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+  overscroll-behavior-block: contain;
+  transition: 0.3s 0.1s;
+  z-index: 1000050; */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999999999;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.3s;
+}
+.anticon svg {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.deleteicon {
+  float: right;
+  margin-top: 5px;
+  font-size: large;
+}
+.divid {
+  margin: 0;
+  padding: 0;
+}
+.bottom {
+  position: "fixed";
+  bottom: 0;
+  z-index: 1000;
+  padding: "10px";
+  background: "white";
+}

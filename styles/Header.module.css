@@ -1,0 +1,46 @@
+.container {
+  background-color: black;
+  color: #fff;
+}
+
+.iconsList {
+  margin: "0px 10px" !important;
+}
+
+.iconantd {
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.flexBetween {
+  display: "flex";
+  justify-content: "space-around";
+  margin: "0px 15px";
+}
+.headerPopover {
+  background: "black";
+  color: "#fff";
+  padding: " 10px 37px";
+  border-radius: "5px";
+  margin: "0px";
+}
+.Header_headerPopover__4Z999{
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 7px;
+  display: flex;
+}
+.anticonmenu {
+  padding: 3px 10px;
+  font-size: 20px;
+}
+.anticondown{
+  padding: 5px 10px;
+  font-size: 15px; 
+}
+
+/* .iconantd a{
+  text-decoration: none;
+  color: black;
+} */
